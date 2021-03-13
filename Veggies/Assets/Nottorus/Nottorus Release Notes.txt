@@ -1,0 +1,516 @@
+This text file contains features, improvements and fixes for each update.
+
+There is no official support from April 2018, but you can try to write to nottorussupp@gmail.com
+---------------------------------------------------------------------------
+Version 2.1
+
+Fixes:
+- Fixed critical bug (NullReferenceException) with compilation in unity 2017/2018.
+
+---------------------------------------------------------------------------
+Version 2.0
+
+Fixes:
+- Fixed a bug with compilation method when not all references ("using") was connected to compiled script.
+
+Other:
+- Moved documentation from site to unitypackage, as site will be shut down soon (Apr 13).
+- Added source code.
+
+---------------------------------------------------------------------------
+Version 1.9.1
+
+Fixes:
+- Fixed a bug with opening the last working function after compiling script (.NET 4.6)
+
+Improvements:
+- Added 'static' modifier for a class.
+
+---------------------------------------------------------------------------
+Version 1.9
+
+Fixes:
+- Fixed a bug with saving after compiling script (no changes were saved) (.NET 4.6)
+- Fixed a bug with a lot of weird assemblies with random name (added settings option "Load Dynamic Assemblies") (.NET 4.6)
+
+Improvements:
+- Added option to add a list of cutom assemblies that will be connected to a new script after creation.
+
+---------------------------------------------------------------------------
+Version 1.8
+
+Fixes:
+- Fixed a bug with opening nottorus files and compiling on .NET 4.6 (Scripting Runtime Version)
+- Fixed a bug and possible bugs with value auto conversion (float->Unary node->string).
+
+Improvements:
+- Added posibility to set optional argument parameters while using attributes.
+
+---------------------------------------------------------------------------
+Version 1.7
+
+Fixes:
+- Fixed errors after switching delegate variable node to "Invoke" functionality
+- Fixed a bug with compilation "Make anonymous method" node when debug mode enabled.
+
+---------------------------------------------------------------------------
+Version 1.6
+
+Fixes:
+- Fixed a bug with compilation custom namespaces with ShortTypeNameCompilation option enabled (not including namespace to includes).
+- Fixed a bug with compilation arrays with ShortTypeNameCompilation option enabled
+- Fixed a bug with compilation some nested classes (UnityEngine.ParticleSystem.Particle) with ShortTypeNameCompilation option enabled
+
+---------------------------------------------------------------------------
+Version 1.5
+
+Fixes:
+- Fixed a bug with compiling delegates (subscribe) when "Short type name compilation" option enabled
+- Fixed pre-compiler error with singleton compilation when "Short type name compilation" option disabled
+
+Improvements:
+- Settings: "Short type name compilation" option for now is enabled by default. Beta label removed.
+- Nottorus console messages for now can be selected and copied
+
+---------------------------------------------------------------------------
+Version 1.4
+
+Fixes:
+- Removed Nottorus debug messages while compilation property nodes.
+- Fixed errors on creating editor/inspector plugin from New Script Wizard;
+- Fixed parsing multidimensional arrays (int[,,])
+
+Improvements:
+- Changed default assemblies for Unity 2017.2 (removed UnityEngine, added UnityEngine.CoreModule)
+
+---------------------------------------------------------------------------
+Version 1.3
+
+Fixes:
+- Fixed a bug with parsing members (methods, variables, etc.) of default system types (float, int, etc). (For example int.MaxValue, fixed parsing as System.Int32.MaxValue (this was causing the bug)).
+- Fixed parsing unary expression (-2) unary node with math node (the types of pins was not initialized to correct type (was AnyType)).
+- Fixed uint and long number limits in numerical fields.
+
+---------------------------------------------------------------------------
+Version 1.29
+
+Fixes:
+- Fixed a bug with compilation static property of jeneric type with custom generic arguments (ignoring custom generic argument type).
+- Fixed an error after compilation MakeDelegate node in Debug mode.
+
+Improvements:
+-Added Rerouting Point node.
+
+---------------------------------------------------------------------------
+Version 1.28
+
+Fixes:
+- Fixed a bug with searching by name in nodes window with enabled option "In Current Type Only" (for now it will consider the text search).
+- Default nodes was not displayed when "Not Inherited" option was enabled.
+- Fixed the annoying problem when make array node reset all IN pins to out pint element type after connecting or disconnecting some IN pins (when working with Object[] type).
+
+---------------------------------------------------------------------------
+Version 1.27
+
+Fixes:
+- Fixed critical bug in nodes list window (deleting the dll (or namespace) that was used by script's asseblies list cause an errors in nodes list and blocks loading the list of nodes)
+
+---------------------------------------------------------------------------
+Version 1.26
+
+Fixes:
+- Fixed problem with compilation String Escape Sequences (\n, \\, \U, etc.)
+- Fixed bugs with compiling nodes (functions, constructors) with using value constructor pins (creating new class in pin);
+- Fixed bug when optional method pins was not compiled if function was not opened.
+- Fixed an error while compiling function with deleted pin (argument).
+
+---------------------------------------------------------------------------
+Version 1.25
+
+Fixes:
+- Added parsing const fields (variables)
+- Fixed tooltips was drawn/goes out of screen.
+- Fixed compilation error with 'base' node in debug mode.
+- Fixed compilation error caused by 'lambda expression delegate' node in debug mode.
+- Fixed lambda delegates parsing.
+
+Improvements:
+- Added functions overriding with 'new' keyword
+- Parsing functions with 'new' keyword
+- Displaying inherited protected functions in nodes list.
+- Removed limitation for creating multiple functions with same name (with different arguments);
+
+---------------------------------------------------------------------------
+Version 1.24
+
+Fixes:
+- Fixed a bug with compilation Conditional Expression (Ternary operator) node (added additional brackets).
+
+Improvements:
+- Saving options in node list window.
+- Optimized drawing of interface for 20%.
+- Custom name for promoted variables (new options parameters).
+- Draw variable node label color as var type color (Option).
+- Added minimize window button. 
+
+-----------------------------------------
+Version 1.23
+
+Fixes:
+- Fixed a bug with compilation Make Array node that contains constructor pins.
+- Fixed a bug with compilation Get/Set Array Element node while using out pin.
+
+Improvements:
+- Added new option (BETA) for removing full type names (namespaces) from compiled script.
+
+-----------------------------------------
+Version 1.21
+
+Fixes:
+- Fixed a bug with compilation custom (from scripts, with namespace) attributes, which can cause an errors on compilation.
+
+Other:
+- DRM off
+
+-----------------------------------------
+Version 1.20
+
+Fixes:
+- Fixed a bug in Nodes List with searching of pasted text.
+- Fixed a bug with inheritance of protected variables, ptoperties and protected virtual methods.
+- Fixed a bug with compilation of attributes from scripts with custom assembly name.
+
+-----------------------------------------
+Version 1.19
+
+Fixes:
+- Fixed nodes pin values was incorrect in debug mode.
+- Math node operations list window was drawn outside the Nottorus window at bottom.
+
+Improvements:
+- Added a posibility to change the Type of pin for Object pin Type (like in math node)
+
+-----------------------------------------
+Version 1.18
+
+Fixes:
+- Fixed "char" text edit field.
+- Fixed parsing "subscribing to events".
+- Fixed generating nodes for readonly fields(variables).
+- Fixed inconsistent opening the "nottorus right mouse menu" while right-clicking on the text (copy/cut/paste).
+
+Improvements:
+- Math node: added pin Type selector to pin mouse menu.
+- Math node: added operation icon images.
+
+-----------------------------------------
+Version 1.17
+
+Fixes:
+- Fixed a bug with (not) compiling a Switch node code if it wasn't drawn on screen.
+- Fixed a documentation button for some nodes.
+
+-----------------------------------------
+Version 1.16
+
+Fixes:
+- Fixed a bug when Type list window (for selecting attribute type) show the results only after reopening.
+
+Improvements:
+- Added support for multiple attributes.
+- Parsing multiple attributes.
+- For now the invoice code is saving in EditorPrefs (no longer needed to enter invoice code again after creating a new project).
+
+-----------------------------------------
+Version 1.15
+
+Fixes:
+- Fixed an error with renaming properties in interfaces.
+- Fixed the interface Type name doesn't have a namespace (not a full Type name) after compilation (Warning: if you have interfaces with properties that created in older versions of Nottorus- I recommend to re-implement them. Problem: you can delete the interface, but its properties will not be deleted). 
+- Fixed compilation custom generic type arguments in typeof() node.
+
+Improvements:
+- Added an option for OS X users for preventing CTRL+C/V spamming each frame.
+- Added Undo restore point before interface deletion.
+- Math function node: added a button for reseting unconnected "in" pins to default type.
+
+-----------------------------------------
+Version 1.14
+
+Fixes:
+- Fixed an error while compiling a class with properties.
+
+-----------------------------------------
+Version 1.13
+
+Fixes:
+- Fixed iterator type (Transform) while iterating through child's in Transform type (Transform connected to Foreach loop).
+- Fixed New/Open window incorrect position on some computers.
+
+-----------------------------------------
+Version 1.12
+
+Improvements:
+- Fixed an issue that Nottorus editor resources get to the build.
+
+Fixes:
+- Fixed an error "failed to convert parameters" while invoking a selected function with arguments in debug mode.
+- Fixed some grammatical mistakes.
+- Fixed 'fractional part divider' cymbol for float (some users got comma instead of dot).
+
+-----------------------------------------
+Version 1.11
+
+Improvements:
+- Added new filtering options in "New node list" window (^_^).
+- Added a help tooltipes for "New node list" window search options.
+- Added an option for changing delete key (for MAC users).
+- Added new documentation for nodes from unity >5.4.
+
+Fixes:
+- Fixed a bug with compiling a local variables in state machine events.
+- Fixed (prohibited) deleting entry/exit nodes in state machine events.
+- Fixed (hope so :)) uncommon error "IOException: Sharing violation on path NottorusOptions.ini".
+- Fixed a bug with checking licence at the end of month (>_<).
+- Fixed a bug with displaying incorrect number of filtered nodes in the "New node list" window (in window label).
+
+Parser fixes (Crtitical):
+- Fixed a bug with the parsing of a 'var' Type (defining the Type of 'var') iterator in "foreach" cycles.
+- Fixed a bug with the parsing of a 'var' Type (defining the Type of 'var') in unary cast expression ( var instance = (Gameobject)Instantiate(...) ).
+
+---------------------------------------------------------------------------
+Version 1.10
+
+Improvements:
+- Added "Favorite nodes list" feature for "New node list" window.
+- Added custom color picker.
+- Added "Sort the default nodes alphabetically" option to Options panel.
+
+Fixes:
+- Fixed an error "get_dataPath is not allowed to be called from a ScriptableObject constructor".
+- Fixed a bug with compilation read-only indexers (AnimationState["myState"]).
+
+---------------------------------------------------------------------------
+Version 1.09
+
+Parser fixes:
+- Fixed a bug with parsing full name variable Types (with namespace).
+
+---------------------------------------------------------------------------
+Version 1.08
+
+Improvements:
+- Class inheritance: extending the 'Types select box' for inheriting from generic types.
+
+Parser fixes:
+- Non-array types was parsed as array types.
+- Fixed a bug with parsing the Type of iterator in ForEach node.
+- Fixed some bugs with parsing the ConditionalExpression node.
+- Fixed a bug with parsing the Unary node.
+
+Other:
+- Assetstore: fixed link to new unity forum.
+- License check: fixed a bug with incorrect license check (license outdated) at end of the month.
+
+---------------------------------------------------------------------------
+Version 1.07
+
+Fixes:
+- Rename field: the text is not selected after entering to the 'rename mode'.
+- Clicking in the details window cause inconsistent selecting the underlying script objects (functions, etc.) from the toolbar.
+- Inconsistent opening the "nottorus right mouse menu" while right-clicking on the text (copy/cut/paste).
+- Fixed the bug that couse node dragging on try to select the text in node pin.
+- Nodes list window: fixed the bug which open all nodes groups (from previous search) after opening the window.
+- Inspector script was created not for selected script type (incorrect type in 'CustomEditor' attribute).
+
+Improvements:
+- Debug time machine: displaying frame number.
+- "Print to console" node: added "Add pin" button.
+
+Parser fixes:
+- Fixed the bug with incorrect selecting the node arguments of inherited function.
+
+Other:
+- Added the invoice number check.
+
+-----------------------------------------
+Version 1.06
+
+Fixes:
+- Fixed the bug when the classes with generic interfaces (IDictionary<,>) was not correctly recognised by the Get/Set array element node.
+- Fixed bug when nodes list window in some cases don't want to start searching the nodes in reflection (for example after the creating a new script).
+- Type select window was broken if use the filter before reflection finish searching types.
+- Fixed the incorrect compilation of "NOT" node.
+- Clicking on pin value constructor box does not select the node.
+- Copy/paste the editing text cause the node was copied too.
+- Fixed incorrect out pin in "math node" (in case multiplying Quaternion and Vector3).
+- The state machine sometimes disappear from the toolbar.
+- Useless connector links was automatically added after creating the inspector/editor scripts in the inherited override methods with return type and cause an errors while compiling script.
+
+Features:
+- Debug time machine (recording the debug timeline of debug values).
+
+Improvements:
+- Added the "Console application" preset in the "New script" window.
+- Added implicit convertion check for linking pin types (GameObject -> bool, Vector2 -> Vector3).
+- System: Nodes graph optimisations ("allow to connect pin Type to other Type" check).
+
+Parser fixes:
+- Fixed bug when nodes list window don't want to start searching the nodes after parsing/reparsing.
+- Fixed the "yield return" parsing.
+- Fixed incorrect pin types in math node after parsing.
+- Fixed incorrect initialisation the "Unary" node after parsing.
+- Fixed problems with parsing some static methods from unity engine asseblies (for example UnityEngine.Quaternion.Euler(Vector3 euler)).
+
+Parser improvements:
+- Parsing the attribute arguments values.
+
+Nodes:
+- "yield return value" - removed from the list of nodes (deprecated).
+- "yield return" - for now can return a custom value.
+
+-----------------------------------------
+Version 1.05
+
+Fixes:
+- Fixed opening the nodes graph of inherited non virtual function.
+- Fixed bug when the variables of public nested types can't have the public modifier.
+- Fixed the problem when closing a script before new nodes window has finished initialising (reflection) which causes permanent freezing of the editor immediately after unity has finished recompiling the scripts.
+- Useless results after filtering in New node window.
+- 'Partial' classes: inheriting all script objects from the other parts of partial class.
+- Fixed bug when pressing the console button "Show node" cause en error if the node was in the Get/Set property nodes graph.
+
+Features:
+- C# Events added.
+- Dropping the pin link on the other pin to which it can't be linked will open node list window to select the intermediary node.
+- Script objects reference window.
+- Custom skins: for now no need to copy all resources from the "DefaultSkin". If the texture doesn't exest in custom skin the plugin will load it from the defaule skin.
+- Creating custom generic methods.
+- Copying the commentaries in nodes graph.
+
+Improvements:
+- Autosaves is now works in dedicated thread (no more freezes while autosave processed).
+- Invocation node mode(option) for the event nodes and delegate variables.
+- For/ForEach nodes compilation: check the iterator is used outside the loop.
+- Saving the original iterator names in For/ForEach nodes for compilation after the parsing.
+
+Parser fixes:
+- Fixed parsing the pins connection the "function delegate" node to the "Increment/Decrement" node.
+- Fixed bug with the function return node was not linked with return data pin.
+- Fixed commentaries compilation. (Note: for correct parsing the commentaries they should starts with "///")
+
+Parser improvements:
+- Parsing the C# Events.
+- Parsing custom generic classes.
+- Parsing custom generic Methods.
+- Added parsing the class/struct initialisers.
+
+-----------------------------------------
+Version 1.04
+
+Fixes:
+- Fixed not correct compilation the functions that returns a value.
+- Fixed incorrect type and signature of function corner delegate pin.
+- Disabling the "Promote to variable" pin menu for nottorus editor system types.
+- Fixed reflection error in nodes with properties of generic types (KeyValuePair(Dictionary)->Value)
+
+Features:
+- Custom colors for node lables (new Options tab).
+- Custom colors for pin Types  (new Options tab).
+
+Improvements:
+- Completely rewritten Sequence diagram and the function return value checker.
+- "Swich" node: added the "Next code" out connector.
+- "Math operations node": added the left-shift operator "<<".
+- Added the "Scriptable object" preset in the "New script" window.
+
+Parser fixes:
+- Function delegate pin (corner pin) was used instead of 'return' out pin.
+- Can't find mach function by arguments with 'params'.
+- Spawning the 'Unary expression' node instead of 'NOT' node (for the boolean types).
+- Ignoring the enums inside classes and namespaces.
+- Fixed incorrect parsing the delegates (Nodes: "Make delegate", "Delegate return")
+- Fixed parsing the Switch cases (Enum type).
+
+New nodes:
+- "#Preprocessor directive" node.
+
+Other:
+- The "Sequence diagram" is now out Beta.
+- Moved the plugin "Resources" folder from the "Nottorus/Plugins/" to the "Nottorus/Editor/" directory (recommended to delete the old resources folder after update).
+
+-----------------------------------------
+Version 1.03
+
+Fixes:
+- Variables list window: selecting item when you click on scrollbar.
+
+Features:
+- Added the "Reparse" button for parsed scripts.
+- Custom skins support.
+- Opening url with documentation for all default nodes (click on icon).
+- Added documentation buttons to all script objects.
+- Added "Undo enabled" option in "Options" window (disabling can increase productivity in large graphs).
+
+Improvements:
+- Custom code value for enum elements.
+- Additional options for searching nodes in node list window.
+- Added tooltipes 
+- Visual improvements in "Options" window.
+- Deleting the inheritance box for "Struct" script objects.
+
+Parser improvements:
+- Parsing the "yield return break" statement.
+- Parsing the "yield return" statement.
+- Fixed incorrect parsing the "index" and "value" pins in the "Get/Set array element" node (also the values in pin temp value boxes).
+
+New nodes:
+- "yield return break" node.
+- "base" node.
+- "Make anonymous method" node.
+
+-----------------------------------------
+Version 1.02
+
+Fixes:
+- Fixed connection "string" type to a "switch" node.
+- After maximizing plugin window script objects can't be dragged.
+- Fixed locking file access after parsing.
+- Math node: "Set all pins types as connected" button now affect only to IN pins (fixed bug when on logical opetations the Out pin was set to IN pin Type, but not to bool Type).
+- Cannot drag and drop object from Hierarchy if you do not have any methods already created.
+- Fixed problems with compiling "Get/Set array element" node.
+- Fixing the tooltip (blinking).
+- Fixed debug of custom classes.
+
+Improvements:
+- Script creation wizard: added redirect (close) button to a "Open script" window.
+
+Features:
+- Plugin options: Added "Hide edit graph elements on zoom-out" option.
+- Added debug breakpoins (available in debug mode).
+
+Parsing:
+- Lots of improvements and bug fixes (parsing arrays, methods arguments etc.).
+- Increasing parsing speed (10-20 times faster).
+- Optimized searching the Types in assemblies.
+
+New nodes:
+- "Do while" node.
+
+-----------------------------------------
+Version 1.01 
+
+Fixes:
+- Types select window button does not always open the window.
+- Fixed unity freezing while reloading scripts/after compiling script (I suppose it caused by the searching threads. Not confirmed)
+- Fixed excessive height of empty Class variables fold.
+
+Improvements:
+- Types select window: now searching is performed in a separate thread (no more freezing while filtering by name).
+- Now the monobehaviours is sorted by name in New script window->Inspector plugin option. 
+- Class properties\variables tooltipe shows their type and the class from which they inherited by.
+
+Features:
+- Added 'CPU Usage' option in options dialog. It controls amount of CPU resources used for asynchronous searching items.
+
+---------------------------------------------------------------------------

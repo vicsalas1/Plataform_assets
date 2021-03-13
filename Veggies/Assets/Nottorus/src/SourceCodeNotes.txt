@@ -1,0 +1,23 @@
+This source code is distributed AS IS (without refactoring, code cleanup etc.) due to no official support from this moment.
+
+If you still want to edit/compile/debug source code:
+
+Delete Nottorus_Plugin.dll and Addon_CSP.dll in project then unpack SourceCode.rar to Assets\Nottorus, so path to source code will be Assets\Nottorus\Editor.
+After this everything should work as usually, plugin will works from sources and not from dll.
+
+
+Building dll:
+
+Nottorus_Plugin.rar, Addon_CSP.rar and Nottorus_Debug.rar in ForBuildingDLL folder:
+This is empty solutions only with a links to source files. Used only for building 3 dlls (Addon_CSP.dll, Nottorus_Debug.dll and Nottorus_Plugin.dll). Should/can be somewhere outside the project.
+All links to sources files should be fixed (just do a text replace in .csproj file).
+Also setup the build output directory.
+Note: DO NOT delete all sources in projects to add them again. They should be added as links, not just added/copied.
+UnityEngine dlls references can be found in unityengine install folder (ProgramFiles\UnityEngine\Editor\Data\Managed)
+
+Nottorus_Plugin - actually the main plugin dll
+Addon_CSP dll - for parsing script files to be converted into nodes then by nottorus plugin.
+Nottorus_Debug - for debugging scripts (the types from this dll is used by scripts to handle behaviuor/values then send them to nottorus).
+All this dll's should be configured as EditorOnly in project inspector to do not be included to build.
+
+Have fun :)

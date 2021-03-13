@@ -1,0 +1,382 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Videojuegos/Plataform_assets/Veggies
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63786
+Successfully changed project path to: D:/Videojuegos/Plataform_assets/Veggies
+D:/Videojuegos/Plataform_assets/Veggies
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Videojuegos/Plataform_assets/Veggies/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001234 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 45.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.553 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.1 MB.
+System memory in use after: 109.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2810.
+Total: 3.081700 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.552400 ms  DeleteObjects: 1.237400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Player (1).cs
+  artifactKey: Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player (1).cs using Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe7c10df5d6cfd3e187cad962194f7c') in 0.040275 seconds
+  Import took 0.043717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.739775 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee7d9a74ab4d8420d1d7c1c9a217b6') in 0.005913 seconds
+  Import took 0.009251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001430 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(6d0a4ef269ae562429326293f1fd66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee7d9a74ab4d8420d1d7c1c9a217b6') in 0.002019 seconds
+  Import took 0.005398 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.5 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2812.
+Total: 3.251400 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.529400 ms  DeleteObjects: 1.436500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.384237 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee8d497d1bd0eb168213dadc1c50a3c') in 0.012187 seconds
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.613789 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.005759 seconds
+  Import took 0.009068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.312490 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(918f32ff51c7a6148b6f7dee4511e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(918f32ff51c7a6148b6f7dee4511e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c5d2fc13c9beae45c2238df69fe56') in 0.006216 seconds
+  Import took 0.009938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.327131 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b497be91500168df49b049a8ea512') in 0.097635 seconds
+  Import took 0.101500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008405 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b497be91500168df49b049a8ea512') in 0.021370 seconds
+  Import took 0.025608 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 108.1 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 3.758100 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.035500 ms  DeleteObjects: 1.383700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.582266 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40be9fe9fb8d4a5855c8b0293ba99616') in 0.098358 seconds
+  Import took 0.106622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017520 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40be9fe9fb8d4a5855c8b0293ba99616') in 0.039698 seconds
+  Import took 0.044811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1611.293077 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1f01719fda0b1e4884bb6d792688a') in 0.119010 seconds
+  Import took 0.124267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1506.956470 seconds.
+  path: Assets/Sprites/enemy_walk.png
+  artifactKey: Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemy_walk.png using Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1994843b9bece7499a8cc8cfb6c2b2a4') in 0.025654 seconds
+  Import took 0.029879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd136dde8d9586614b2c5d50eb6c42539') in 0.020053 seconds
+  Import took 0.023894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.903008 seconds.
+  path: Assets/Sprites/enemy_walk.png
+  artifactKey: Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemy_walk.png using Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f12cb8ec9ae6ab36e2f0333d0894c4') in 0.064390 seconds
+  Import took 0.070723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099923 seconds.
+  path: Assets/Sprites/enemy_walk.png
+  artifactKey: Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemy_walk.png using Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f12cb8ec9ae6ab36e2f0333d0894c4') in 0.071942 seconds
+  Import took 0.077750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.592438 seconds.
+  path: Assets/Sprites/enemy_walk.png
+  artifactKey: Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemy_walk.png using Guid(3500d9ca95f4240448ad724739a8125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a926430535713d5c6014a47ebf7e74') in 0.135740 seconds
+  Import took 0.141585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.877995 seconds.
+  path: Assets/Sprites/Enemy_walk.anim
+  artifactKey: Guid(7d516e2433f859449aa0ab22eab5a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy_walk.anim using Guid(7d516e2433f859449aa0ab22eab5a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621aa4e154f85d4f36568348810cdb72') in 0.009896 seconds
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004884 seconds.
+  path: Assets/Sprites/Enemy_walk.anim
+  artifactKey: Guid(7d516e2433f859449aa0ab22eab5a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemy_walk.anim using Guid(7d516e2433f859449aa0ab22eab5a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621aa4e154f85d4f36568348810cdb72') in 0.002469 seconds
+  Import took 0.005728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 477.226651 seconds.
+  path: Assets/Sprites/enemy_walk_0.controller
+  artifactKey: Guid(827e3e6fc2fb6dc4c8217788c2aebcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/enemy_walk_0.controller using Guid(827e3e6fc2fb6dc4c8217788c2aebcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ee06cc13e165465fe1a2fb405a3e3') in 0.008466 seconds
+  Import took 0.012102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.373515 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b83badd5ba5019de43830e86747c1e1') in 0.025860 seconds
+  Import took 0.030073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093707 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b83badd5ba5019de43830e86747c1e1') in 0.035131 seconds
+  Import took 0.038659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.690163 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1ef56fd028f19a3070e167912b913a') in 0.018350 seconds
+  Import took 0.022462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.357252 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c70aabf65f0d4d55cc3e1d6e4db6d') in 0.017020 seconds
+  Import took 0.021044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084976 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c70aabf65f0d4d55cc3e1d6e4db6d') in 0.015247 seconds
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.420206 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ce488c73e7e18b7b6a3a35229e792a') in 0.041343 seconds
+  Import took 0.045011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.113233 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509659e9c4c1d24d93f9ce8fda5ec1ad') in 0.078866 seconds
+  Import took 0.084187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015476 seconds.
+  path: Assets/Sprites/idle-sequence.png
+  artifactKey: Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/idle-sequence.png using Guid(ec9e68a6ddf927c49bf83fa233dd2794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509659e9c4c1d24d93f9ce8fda5ec1ad') in 0.055015 seconds
+  Import took 0.058497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 753.570485 seconds.
+  path: Assets/Scripts/Attack_player.cs
+  artifactKey: Guid(9147f0c4d1ee9f341ade611271458f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Attack_player.cs using Guid(9147f0c4d1ee9f341ade611271458f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9708a9174af2a213febd2e04af2855') in 0.006528 seconds
+  Import took 0.010284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2364 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 111.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 3.234800 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.617900 ms  DeleteObjects: 1.290400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/vicsa/Unity/ashuda/Plataform_assets/Veggies
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58547
+Successfully changed project path to: D:/vicsa/Unity/ashuda/Plataform_assets/Veggies
+D:/vicsa/Unity/ashuda/Plataform_assets/Veggies
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vicsa/Unity/ashuda/Plataform_assets/Veggies/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001676 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 3.439300 ms (FindLiveObjects: 0.407300 ms CreateObjectMapping: 0.154600 ms MarkObjects: 1.795900 ms  DeleteObjects: 1.080700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_1.fbx
+  artifactKey: Guid(c7460bfb54be171498cc832d2695e235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_1.fbx using Guid(c7460bfb54be171498cc832d2695e235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65fe0a112b695367e05fd41ba4e20f0') in 1.241798 seconds
+  Import took 1.245327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_Grande.fbx
+  artifactKey: Guid(75a205bbf87f66c429ee4c3b3efa457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_Grande.fbx using Guid(75a205bbf87f66c429ee4c3b3efa457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a04d06c7af163fd7ca01d5bbfaacaa') in 0.023776 seconds
+  Import took 0.026717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_3.fbx
+  artifactKey: Guid(ab9a79cbe1e2afe4e9932c508c8a9cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_3.fbx using Guid(ab9a79cbe1e2afe4e9932c508c8a9cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c367b5bf4379492e47caffa78ac17') in 0.039372 seconds
+  Import took 0.043047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_2.fbx
+  artifactKey: Guid(67a01c4f269379b4fa6da1765a0f9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_2.fbx using Guid(67a01c4f269379b4fa6da1765a0f9e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ed8853cfa4ae8866ddc07ed0270e2a') in 0.028026 seconds
+  Import took 0.031044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/base_1.fbx
+  artifactKey: Guid(74e6ca98a13a70e44aadb6a668d73a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/base_1.fbx using Guid(74e6ca98a13a70e44aadb6a668d73a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29002fff40ae7323e30b8488762a1fc4') in 0.037251 seconds
+  Import took 0.040418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/bush_1.fbx
+  artifactKey: Guid(97e25a2d17571a34c8ef413950ebc07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/bush_1.fbx using Guid(97e25a2d17571a34c8ef413950ebc07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f608a92e24fb6ce6cb86c7d869fbaf') in 0.031558 seconds
+  Import took 0.034641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/base_2.fbx
+  artifactKey: Guid(acd8d781be480a2438bdbca991bd1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/base_2.fbx using Guid(acd8d781be480a2438bdbca991bd1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f1e3e59a16ba031f48641cd00d4cb') in 0.033469 seconds
+  Import took 0.036358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Texturas/Leaves1.png
+  artifactKey: Guid(7c2a5486051607342a6b569d9a2bdd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Texturas/Leaves1.png using Guid(7c2a5486051607342a6b569d9a2bdd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a832fa149d79b9e23b51938963ba8d3') in 0.033121 seconds
+  Import took 0.036187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_1.fbx
+  artifactKey: Guid(a524dfd8349218d4dbbe9b844f0b1c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/arbol_1.fbx using Guid(a524dfd8349218d4dbbe9b844f0b1c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cfe9f32c56412c0b7717d3db7bfa29') in 0.029894 seconds
+  Import took 0.032845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_2.fbx
+  artifactKey: Guid(6e0444eca669c5a4f97f18758a185b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_2.fbx using Guid(6e0444eca669c5a4f97f18758a185b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cab51c8a1d6f3a63c153c6af854e741') in 0.030020 seconds
+  Import took 0.033065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/cortado_arbol.fbx
+  artifactKey: Guid(9de5c8c02a591e744a05e5b888b51c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/cortado_arbol.fbx using Guid(9de5c8c02a591e744a05e5b888b51c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59fa3ad9d6cbe4eb73b517442ec4211') in 0.028524 seconds
+  Import took 0.031399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_2.fbx
+  artifactKey: Guid(8b2cac42a45c49648afbf2ce28d63240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_2.fbx using Guid(8b2cac42a45c49648afbf2ce28d63240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a397c36aa5cc72cd31046645b031562') in 0.030546 seconds
+  Import took 0.033429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/rocas_2.fbx
+  artifactKey: Guid(5d24c69d82bce8f4c97d150cd9b36b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/rocas_2.fbx using Guid(5d24c69d82bce8f4c97d150cd9b36b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bed659b18785f8571b47f9f019fe579') in 0.022009 seconds
+  Import took 0.025255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/Mina.fbx
+  artifactKey: Guid(b074c37df92381d42bfce5ce9af243d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/Mina.fbx using Guid(b074c37df92381d42bfce5ce9af243d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5db16f544e0620bc6c6a110e7b582') in 0.037157 seconds
+  Import took 0.040215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/hongos.fbx
+  artifactKey: Guid(860ac9bcc566c204686172bf9740cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/hongos.fbx using Guid(860ac9bcc566c204686172bf9740cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c9991a288a923fd859fbafbffbac5f') in 0.022725 seconds
+  Import took 0.026353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/puente.fbx
+  artifactKey: Guid(6f5a5d91603b9f345a3a7b2306cece4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/puente.fbx using Guid(6f5a5d91603b9f345a3a7b2306cece4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d79f933001d9a422084ced094a3aa') in 0.035462 seconds
+  Import took 0.038898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_3.fbx
+  artifactKey: Guid(959a402095851cf43bbe6f9f067b69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_3.fbx using Guid(959a402095851cf43bbe6f9f067b69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4658c883671e7a879f542cce21d87415') in 0.022559 seconds
+  Import took 0.025534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_4.fbx
+  artifactKey: Guid(29a248d5f5362c1498aac3df5ee741e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/pasto_4.fbx using Guid(29a248d5f5362c1498aac3df5ee741e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af9980c60f5c326b7a465f982daa862') in 0.034603 seconds
+  Import took 0.037465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/awa.fbx
+  artifactKey: Guid(8976e57ba2607da4b9ff1adda0ba2dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/awa.fbx using Guid(8976e57ba2607da4b9ff1adda0ba2dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4414dad4055cd1a8b372aabea9e91da') in 0.024207 seconds
+  Import took 0.027119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_1.fbx
+  artifactKey: Guid(1587e1d7cd546f546a761774e58ad157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/Flor_1.fbx using Guid(1587e1d7cd546f546a761774e58ad157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23ef7d8da9bddd1cde07206c2150f44') in 0.038261 seconds
+  Import took 0.041425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Texturas/Flowers.png
+  artifactKey: Guid(1cb52ac964cac38428440bd5d8a89daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Texturas/Flowers.png using Guid(1cb52ac964cac38428440bd5d8a89daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4247fae86f459dce2700e676d4570f2') in 0.016628 seconds
+  Import took 0.019898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/3d/bush_2.fbx
+  artifactKey: Guid(31f0e117bc351404fa0c0efdcceccd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/3d/bush_2.fbx using Guid(31f0e117bc351404fa0c0efdcceccd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5d5288facc27bab043292e186f426a') in 0.027714 seconds
+  Import took 0.030758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Texturas/base.png
+  artifactKey: Guid(d1419a4b7282fc0469cb0b8706f1ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Texturas/base.png using Guid(d1419a4b7282fc0469cb0b8706f1ace4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3230d9eedd9727ec43f16a4f9221c57e') in 0.016609 seconds
+  Import took 0.019606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146901 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales/Arbol_grande.mat
+  artifactKey: Guid(67ea3ddae5dc284419e011255a5574ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales/Arbol_grande.mat using Guid(67ea3ddae5dc284419e011255a5574ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e6f67d112a2d74afd64b084ce302f7') in 0.216269 seconds
+  Import took 0.219825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales/Hongos.mat
+  artifactKey: Guid(9f085fa3e5a2e5242827e6be2931c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales/Hongos.mat using Guid(9f085fa3e5a2e5242827e6be2931c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a46bd7b7502ccedaf7f2a4142b53ab') in 0.012143 seconds
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales/Flores.mat
+  artifactKey: Guid(a97408108715a6a4fa0306a8f7f694b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales/Flores.mat using Guid(a97408108715a6a4fa0306a8f7f694b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691f86c14e79531f7e8a78a9576bf314') in 0.014432 seconds
+  Import took 0.018778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.719258 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales
+  artifactKey: Guid(a4488dbf925194b4a9972ba7b4f4535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales using Guid(a4488dbf925194b4a9972ba7b4f4535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39902fdfaf28fa93067ab7b3dfaac2c') in 0.005084 seconds
+  Import took 0.008351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.315742 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales/sdf.mat
+  artifactKey: Guid(37a4ffe8b9b535044b9f7555d4e5f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales/sdf.mat using Guid(37a4ffe8b9b535044b9f7555d4e5f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937abba114cb58501ec7f6ed78dd771f') in 0.017927 seconds
+  Import took 0.022024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.190674 seconds.
+  path: Assets/3d_escenario/Assets/Scenes/assets/Materiales/sdf.mat
+  artifactKey: Guid(37a4ffe8b9b535044b9f7555d4e5f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d_escenario/Assets/Scenes/assets/Materiales/sdf.mat using Guid(37a4ffe8b9b535044b9f7555d4e5f2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2827d7231f4ef9a45c55dff499d2621') in 0.013777 seconds
+  Import took 0.017434 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

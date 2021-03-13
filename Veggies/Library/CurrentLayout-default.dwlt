@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 37
+  controlID: 83
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 46
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 47
+  controlID: 89
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/3d_escenario/Assets/Scenes/assets/Materiales
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/3d_escenario/Assets/Scenes/assets/Materiales
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\vicsa\Unity\ashuda\Plataform_assets\Veggies
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 344c0000
-    m_LastClickedID: 19508
-    m_ExpandedIDs: 00000000344c0000364c0000384c00003a4c000000ca9a3b
+    m_SelectedIDs: c4460000
+    m_LastClickedID: 18116
+    m_ExpandedIDs: 00000000624600006446000066460000684600006e46000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000344c0000364c0000384c00003a4c0000
+    m_ExpandedIDs: 0000000062460000644600006646000068460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004a490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 0cb8ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 6cf6ffff
+      m_ExpandedIDs: 56fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 41.741333, y: 21.808372, z: 50.03597}
+    m_Target: {x: 52.386368, y: 8.766837, z: 10.542437}
     speed: 2
-    m_Value: {x: 41.741333, y: 21.808372, z: 50.03597}
+    m_Value: {x: 52.386368, y: 8.766837, z: 10.542437}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -621,13 +621,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06901419, y: -0.08310662, z: 0.005787946, w: -0.994162}
+    m_Target: {x: -0.19374122, y: 0.059449647, z: -0.0115886815, w: -0.9792738}
     speed: 2
-    m_Value: {x: -0.06901419, y: -0.08310662, z: 0.005787946, w: -0.994162}
+    m_Value: {x: -0.19370605, y: 0.060912967, z: -0.011878203, w: -0.97909474}
   m_Size:
-    m_Target: 66.278465
+    m_Target: 52.74646
     speed: 2
-    m_Value: 66.278465
+    m_Value: 52.74646
   m_Ortho:
     m_Target: 0
     speed: 2

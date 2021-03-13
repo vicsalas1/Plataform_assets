@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/First_level.unity
+- path: Assets/3d_escenario/Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
